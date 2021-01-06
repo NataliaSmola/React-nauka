@@ -8,13 +8,13 @@ class Card extends React.Component {
   }
 
 
-render() {
-  return (
-    <section className={styles.component}>
-    <div>{this.props.title}</div>
-    </section>
-  )
-}
+  render() {
+    return (
+      <section className={styles.component}>
+        <div>{this.props.title}</div>
+      </section>
+    );
+  }
 }
 
 export default Card;
