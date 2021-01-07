@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './App.scss';
 import List from '../List/ListContainer.js';
-import {listData} from '../../data/dataStore';
+//import {listData} from '../../data/dataStore';
 import PropTypes from 'prop-types';
 
 class App extends React.Component {
