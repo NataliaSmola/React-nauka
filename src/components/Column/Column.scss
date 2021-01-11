@@ -11,7 +11,7 @@
   color: $color-dark;
 
   &:last-child {
-    margin: 0 0 $base-size 0; 
+    margin: 0 0 $base-size 0;
   }
 }
 
@@ -22,10 +22,13 @@
 }
 
 .icon > * {
-  padding-right: $base-size;
+  padding-top: $base-size;
   color: $color-warning;
-  font-size: ($base-size * 2);
+  font-size: ($base-size * 2.5);
   vertical-align: middle;
+  display: flex;
+  justify-content: center;
+
 }
 
 @media (max-width: 767px) {
