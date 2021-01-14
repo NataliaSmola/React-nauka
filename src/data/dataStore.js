@@ -10,6 +10,19 @@ export const settings = {
     defaultText: 'Search...',
     icon: 'search',
   },
+  header: {
+    icon: 'atom',
+  },
+  info: {
+    title: 'All info about us',
+    subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    image: 'https://images.pexels.com/photos/1983032/pexels-photo-1983032.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+  },
+  faq: {
+    title: 'Questions?',
+    subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    image: 'https://images.pexels.com/photos/149988/pexels-photo-149988.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+  },
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
 };
