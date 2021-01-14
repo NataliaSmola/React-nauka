@@ -12,7 +12,7 @@ const Hero = props => (
 );
 
 Hero.propTypes = {
-  titleText:PropTypes.node.isRequired,
+  titleText:PropTypes.node,
   backgroundImage:PropTypes.string,
 };
 
