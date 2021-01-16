@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './SearchResults.scss';
 import PropTypes from 'prop-types';
-//import Creator from '../Creator/Creator.js';
 import {settings} from '../../data/dataStore';
 import Icon from '../Icon/Icon.js';
 import Card from '../Card/Card.js';
